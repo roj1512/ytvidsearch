@@ -1,7 +1,8 @@
 import { getValue } from "./helpers";
 import { video } from "./constants";
+import { keyable } from "./interfaces";
 
-export const getVideoComponent = (element) => {
+export const getVideoComponent = (element: any): keyable => {
   const _video = element[video];
   const component = {
     _: video,
