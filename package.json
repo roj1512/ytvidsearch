@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/rojserbest/ytvidsearch/issues"
   },
-  "homepage": "https://github.com/rojserbest/ytvidsearch#readme"
+  "homepage": "https://github.com/rojserbest/ytvidsearch#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.10"
+  }
 }
