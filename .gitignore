@@ -1,0 +1,9 @@
+.vscode
+__pycache__
+dist
+test.py
+.mypy_cache
+.pre-commit-config.yaml
+package-lock.json
+src
+node_modules

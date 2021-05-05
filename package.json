@@ -1,0 +1,20 @@
+{
+  "name": "ytvidsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "start": "dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojserbest/ytvidsearch.git"
+  },
+  "author": "Roj Serbest <rojserbest@icloud.com>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rojserbest/ytvidsearch/issues"
+  },
+  "homepage": "https://github.com/rojserbest/ytvidsearch#readme"
+}
