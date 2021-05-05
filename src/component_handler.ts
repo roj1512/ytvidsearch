@@ -20,7 +20,7 @@ export const getVideoComponent = (element) => {
     ]),
     descriptionSnippet: getValue(_video, ["descriptionSnippet", "runs"]),
     channel: {
-      name: getValue(_video, "ownerText", "runs", 0, "text"),
+      name: getValue(_video, ["ownerText", "runs", 0, "text"]),
       id: getValue(_video, [
         "ownerText",
         "runs",
