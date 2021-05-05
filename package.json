@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist",
   "scripts": {
-    "start": "dist",
+    "start": "node dist",
     "build": "tsc"
   },
   "repository": {

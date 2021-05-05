@@ -2,7 +2,7 @@ import { encode } from "querystring";
 import fetch from "node-fetch";
 import { requestPayload, userAgent, searchKey } from "./constants";
 
-export const search = async (query) => {
+export const search = async (query: string) => {
   const body = JSON.stringify({
     ...requestPayload,
     query: query,
