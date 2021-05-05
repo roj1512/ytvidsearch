@@ -1,9 +1,7 @@
-.vscode
-__pycache__
-dist
-test.py
-.mypy_cache
-.pre-commit-config.yaml
+test.js
 package-lock.json
-src
-node_modules
+
+
+dist/
+node_modules/
+.vscode/
